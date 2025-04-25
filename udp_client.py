@@ -1,7 +1,7 @@
 import socket
 
-target_host = "www.google.com" # The target host is the server we want to connect to
-target_port = 80 # The target port is the port we want to connect to on the server
+target_host = "www.google.com" # The target host is the server we want to connect  and also Change as per your target
+target_port = 80 # The target port is the port we want to connect to on the server and also Change as per your target
 
 client = socket.socket(socket.AF_INET,socket.SOCK_DGRAM) # Create a socket object in which AF_INET is for IPV4 Ip address and SOCK_DGRAM is the request is UDP not TCP
 
